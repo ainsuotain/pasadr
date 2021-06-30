@@ -1,0 +1,14 @@
+Package: pasadr
+Type: Package
+Title: An Implementation of Process-Aware Stealthy Attack Detection(PASAD)
+Version: 1.0
+Date: 2021-06-22
+Author: Donghwan Kim
+Maintainer: Donghwan Kim <donhkim9714@korea.ac.kr>
+Description: Anomaly detection method based on the paper "Truth will out: Departure-based process-level detection of stealthy attacks on control systems" from Wissam Aoudi, Mikel Iturbe, and Magnus Almgren (2018) <DOI:10.1145/3243734.3243781>. Also referred to the following implementation: <https://github.com/rahulrajpl/PyPASAD>.
+License: GPL-3
+Encoding: UTF-8
+LazyData: no
+Repository: CRAN
+URL: https://github.com/ainsuotain/pasadr
+Depends: R (>= 3.5.0), pracma, scales
